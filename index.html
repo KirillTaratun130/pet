@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<main>
+    <form>
+    <h1>Отправки заявки на конференцию</h1>
+
+    <h2>Основные данные</h2>
+
+    <p><b>* Фамилия, имя, отчество:</b></p>
+
+    <label>
+        <input type="text" name="" size="40" placeholder="Ф.И.О" required="required">
+    </label>
+
+    <p><b>Дата рождения</b></p>
+
+    <label>
+        <input type="text" name="" placeholder="дд.мм.гггг" maxlength="10">
+    </label>
+
+    <p><b>Пол:</b></p>
+
+    <label>
+        <input id="go" type="radio" name="one" checked>&nbsp;<label for="go">мужской</label>&nbsp;
+        <label>
+            <input id="bn" type="radio" name="one">&nbsp;<label for="bn">женский</label>
+        </label>
+    </label>
+
+    <h2>Данные для создания личного кабинета</h2>
+
+    <p><b>* Адрес электронной почты:</b></p>
+    <label>
+        <input type="email" name="" size="30" required="required">
+    </label>
+
+    <p><b>* Пароль для создания личного кабинета:</b></p>
+    <label>
+        <input type="password" name="" size="30" required="required">
+    </label>
+
+    <p><b>* Подтверждение пароля:</b></p>
+    <label>
+        <input type="password" name="" size="30" required="required">
+    </label>
+
+    <h2>Материалы для конференции</h2>
+
+    <p><b>* Тема доклада:</b></p>
+    <label>
+        <input type="text" name="" size="30" maxlength="40" required="required">
+    </label>
+
+    <p><b>* Тезисы доклада (не более 1000 символов):</b></p>
+    <label>
+        <textarea cols="40" rows="10" placeholder="Ваш доклад" maxlength="1000" required="required"></textarea>
+    </label>
+
+    <p><b>Файл презентации:</b></p>
+    <label>
+        <input type="file">
+    </label>
+
+    <h2>Дополнительные опции</h2>
+
+    <label>
+        <input id="gr" type="checkbox" name="">&nbsp;<label for="gr">Проживание в отеле</label>
+        <br>
+        <label>
+            <input id="ur" type="checkbox" name="">&nbsp;<label for="ur">Завтрак</label>
+            <br>
+            <label>
+                <input id="er" type="checkbox" name="">&nbsp;<label for="er">Обед</label>
+                <br>
+                <label>
+                    <input id="fo" type="checkbox" name="">&nbsp;<label for="fo">Ужин</label>
+                    <br>
+                </label>
+            </label>
+        </label>
+    </label>
+
+    <hr>
+
+    <label>
+        <input type="submit" name="" placeholder="Отправить">
+    </label>
+
+    <hr>
+
+    <p><small>* Поля отмеченные звездочкой, являются обязательными для заполнения</small></p>
+
+    </form>
+</main>
+</html>
